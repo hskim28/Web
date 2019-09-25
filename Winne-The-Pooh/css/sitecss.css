@@ -1,0 +1,134 @@
+/********************************************************************
+I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy. No part of this assignment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assignment for my use.
+I also declare that no part of this assignment has been distributed to other students.
+Name: Hyun Soo Kim
+Dated: 03/29/19
+********************************************************************/
+
+html {
+  background-image: url('../images/cover.jpg');
+  background-size: cover;
+}
+
+.main-container {
+    max-width: 1000px;
+    margin: auto;    
+}
+
+.main-container header {
+    padding: 10px;
+    background: #eee;
+    border: 10px #ccc solid;
+    margin: 0 0 30px 0;
+}
+
+.main-container header h1 {
+  width: 70%;
+  font-size: 25px;
+  float: right;
+  text-align: right;
+  margin-top: 90px;
+}
+
+#logo {
+  width: 20%;
+  height: 20%;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-container nav {
+    font-size: 20px;
+    font-weight: bold;
+    width: 30%;    
+    float: left;
+}
+
+.main-container .main {
+  width: 70%;
+  float: right;
+} 
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    
+}
+
+nav ul a {    
+    display: block;        
+    color: black;    
+    padding: 8px 16px;
+    text-decoration: none;  
+}
+
+nav ul a:hover {
+    background-color: blue;       
+}
+
+
+body {
+    width: 960px;	
+    height: 1000px;		
+    margin: auto;    
+}		
+
+section {
+    text-align: left;
+    position: absolute; 
+    top: 255px;   
+    left: 380px;
+    width: 800px;         
+      
+  }  
+
+  img {
+    width: 300px; height: 200px;
+}
+
+  
+figure{ 
+    display: inline-block;
+    position:relative;
+    width: 200px; 
+    height: 200px;
+    border: 23px;
+    margin: 23px; 
+    padding: 0px;
+    overflow: hidden;
+
+    border-top:1px solid black;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    border-left:1px solid black;
+}
+
+figure img{
+    display:block; width: inherit;
+}
+   
+figcaption{
+    position:absolute;
+    text-align: center;
+    font-weight: bold;
+    bottom: 0px; opacity:0;
+    box-sizing: border-box;
+    width:inherit; height: inherit;
+    background: lightgrey; color: black;
+    font-size: 17px;
+    transition: .5s;
+}
+
+figure:hover > figcaption{ 
+  opacity:.8;
+}
+
+.footer {  
+  text-align: center;  
+  position: relative;  
+  top: 975px;      
+  width: 100%;  
+}
